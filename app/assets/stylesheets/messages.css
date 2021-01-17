@@ -9,20 +9,50 @@
   padding: 0 20px;
 }
 
+.side-header{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.create-chat a{
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.side-chat{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  overflow: scroll;
+}
+
+
+.room-name{
+  padding: 20px 0 40px;
+}
+
+.room a{
+  text-decoration: none;
+  color: white;
+}
+
+
 .chat{
   width: calc(100vw - 300px);
   background-color: #ffffff;
   padding: 0 40px;
 }
 
-.side-header{
-  height: 100px;
-}
-
-.side-chat{
-  height: calc(100vh - 100px);
-  background-color: #2f3e51;
-}
 
 .chat-header{
   height: 100px;
